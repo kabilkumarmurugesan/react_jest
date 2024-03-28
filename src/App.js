@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./components/Counter";
+import FormComponent from "./components/FormComponent";
 import HelloWorld from "./components/HelloWorld";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
       <header className="App-header">
         <HelloWorld />
         <Counter initialValue={0} />
-        <p>v0.2</p>
+        <FormComponent />
+        <p>v0.3</p>
       </header>
     </div>
   );
